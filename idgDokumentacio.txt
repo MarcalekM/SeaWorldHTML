@@ -1,3 +1,4 @@
 1.	lépés: JSON fájl létrehozása
 2. lépés: Oldal alapjainak elkészítése
-3. Navbar létrehozása
+3. lépés: Navbar létrehozása
+4. lépés: Weboldal szerkezetének kialakítása
