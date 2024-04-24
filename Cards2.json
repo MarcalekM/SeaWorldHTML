@@ -1,30 +1,32 @@
 [
     {
         "title": "Climate change",
-        "content": "It's making oceans hotter, promoting acidification, and making it harder for marine life to breathe by reducing dissolved oxygen levels. We can reduce our own carbon footprint and help decelerate climate change by making smart choices about what we eat and how we travel. Learn more"
+        "content": "It's making oceans hotter, promoting acidification, and making it harder for marine life to breathe by reducing dissolved oxygen levels. We can reduce our own carbon footprint and help decelerate climate change by making smart choices about what we eat and how we travel. Learn more",
+        "img": "action1"
     },
     {
         "title": "Plastic Pollution",
-        "content": "We can all help by refusing single-use plastics such as straws, cutlery, and food containers. These are in our lives for seconds, but spend centuries circulating in our oceans, causing significant damage. Don’t support businesses that are using single-use plastics. Learn more"
+        "content": "We can all help by refusing single-use plastics such as straws, cutlery, and food containers. These are in our lives for seconds, but spend centuries circulating in our oceans, causing significant damage. Don’t support businesses that are using single-use plastics. Learn more",
+        "img": "action2"
     },
     {
         "title": "Sustainable Seafood",
-        "content": "Do you know where your food is coming from, how and where it is caught? Long line fishing is extremely disruptive to our oceans. It can trap thousands of by-catch animals, and nets are often lost at sea and become death traps for many animals. The practice of over-fishing certain species is creating a huge imbalance in our sea-based populations. Learn more"
+        "content": "Do you know where your food is coming from, how and where it is caught? Long line fishing is extremely disruptive to our oceans. It can trap thousands of by-catch animals, and nets are often lost at sea and become death traps for many animals. The practice of over-fishing certain species is creating a huge imbalance in our sea-based populations. Learn more",
+        "img": "action3"
     },
     {
         "title": "Fisheries subsidies",
-        "content": "Every year, governments spend billions on fisheries subsidies, the majority of which directly accelerate harmful overfishing. Subsidies lead to too many fishing fleets and vessels that can remain out at sea longer and decimate populations in certain areas. Learn more"
+        "content": "Every year, governments spend billions on fisheries subsidies, the majority of which directly accelerate harmful overfishing. Subsidies lead to too many fishing fleets and vessels that can remain out at sea longer and decimate populations in certain areas. Learn more",
+        "img": "action4"
     },
     {
         "title": "Marine protection",
-        "content": "Today, only 2% of our oceans are protected marine parks. (Remember that the oceans covers 70% of our earth!) Scientists estimate we may need to protect 30% of the ocenas to provide properly for the future of ocean wildlife and ocean health. Make sure your representatives know that these issues are important to you! Learn more"
+        "content": "Today, only 2% of our oceans are protected marine parks. (Remember that the oceans covers 70% of our earth!) Scientists estimate we may need to protect 30% of the ocenas to provide properly for the future of ocean wildlife and ocean health. Make sure your representatives know that these issues are important to you! Learn more",
+        "img": "action5"
     },
     {
         "title": "Apex predators",
-        "content": "Our apex predators, like sharks, play critical rola in regulating the eco-system and they need our help! Shark are especially vulnerable to overfishing. As a result of fishing pressures, a third of shark species are already threarened with extincition. Learn more"
-    },
-    {
-        "title": "Conservation",
-        "content": "Our world is in trouble, and as the stewards of this planet we need to be better. Lead by example and ensure that this amazing world and all its inhabitants have a fighting chance for longevity. This journey will open your eyes and forever change you."
+        "content": "Our apex predators, like sharks, play critical rola in regulating the eco-system and they need our help! Shark are especially vulnerable to overfishing. As a result of fishing pressures, a third of shark species are already threarened with extincition. Learn more",
+        "img": "action6"
     }
 ]
