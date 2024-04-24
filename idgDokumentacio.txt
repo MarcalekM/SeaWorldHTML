@@ -2,3 +2,24 @@
 2. lépés: Oldal alapjainak elkészítése
 3. lépés: Navbar létrehozása
 4. lépés: Weboldal szerkezetének kialakítása
+
+
+
+
+
+Ideiglenes mentések:
+
+<img id="headerKep" src="./images/header1_lg.jpg" alt="">
+
+
+
+background-image: url(./images/header1_lg.jpg);
+    width: auto;
+
+
+.headerSzoveg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
