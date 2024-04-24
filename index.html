@@ -2,36 +2,40 @@
 <html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body  ng-controller="myController">
-<nav class="navbar">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Book an experience</a></li>
-    </ul>
-</nav>
-<<<<<<< Updated upstream
-<div>
-    <h2>Our tips</h2>
-    <div class="card">
-
-        <button class="kartyaGomb">asdasdsadsa</button>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Book an experience</a></li>
+        </ul>
+    </nav>
+    <div ng-repeat="card in cards1">
+        <h2>{{card["title"]}}</h2>
+        <div class="card">
+            <img src='images/{{card["img"]}}.jpg' alt="">
+            <p>{{card["content"]}}</p>
+            <button class="kartyaGomb">asdasdsadsa</button>
+        </div>
     </div>
 
-</div>
-=======
-
-
->>>>>>> Stashed changes
-
-
+    <script>
+        let app = angular.module("myApp", []);
+        app.controller("myController", function($scope, $http){
+            $http.get("Cards1.json").then(function(response){
+                $scope.cards1 = response.data;
+                console.log($scope.cards1);
+            });
+        });
+    </script>
 </body>
 </html>
