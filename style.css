@@ -72,3 +72,38 @@ body {
     z-index: 1;
     
 }
+
+
+
+#headerKep{
+    width: 2200px; 
+    height: 250px; 
+    object-fit: none;
+}
+header{
+    background-image: url(./images/header1_lg.jpg);
+    background-repeat: no-repeat;
+    height: 87vh;
+    background-size: cover;
+    margin-top: -430px;
+    
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 90vh;
+    margin-top: -430px;
+  }
+
+
+#headerGomb{
+    color: lightskyblue;
+    background-color: white;
+
+}
+.headerSzoveg{
+    padding-top: 500px;
+    width: 60%;
+    margin: auto;
+}
