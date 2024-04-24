@@ -24,8 +24,29 @@
         <div class="card">
             <img src='images/{{card["img"]}}.jpg' alt="">
             <p>{{card["content"]}}</p>
-            <button class="kartyaGomb">asdasdsadsa</button>
+            <button class="kartyaGomb">{{card["btn"]}}</button>
         </div>
+    </div>
+    <div>
+        <h2>Experience</h2>
+        <p>Our trips provide you with an opportunity to do more. You’ll experience cultural differences, learn about animals and people, and you’ll leave with your perceptions dramatically altered. Our local partners run an unforgettable journey. Come experience these magical moments that will stay with you for a lifetime!</p>
+    </div>
+    <div>
+        <div class="images">
+            <img class="profile" src="images/team01.jpg" alt="">
+            <img class="profile"  src="images/team02.jpg" alt="">
+            <img class="profile"  src="images/team03.jpg" alt="">
+            <img class="profile"  src="images/team04.jpg" alt="">
+            <img class="profile"  src="images/team05.jpg" alt="">
+        </div>
+    </div>
+    <div>
+        
+    </div>
+    <div ng-repeat="card in cards2">
+        <img src='images/{{card["img"]}}.jpg' alt="">
+        <h2>{{card["title"]}}</h2>
+        <p>{{card["content"]}}</p>
     </div>
 
     <script>
@@ -34,6 +55,12 @@
             $http.get("Cards1.json").then(function(response){
                 $scope.cards1 = response.data;
                 console.log($scope.cards1);
+            });
+        });
+        app.controller("myController", function($scope, $http){
+            $http.get("Cards2.json").then(function(response){
+                $scope.cards2 = response.data;
+                console.log($scope.cards2);
             });
         });
     </script>
