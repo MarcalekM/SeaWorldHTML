@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
-<body  ng-controller="myController">
+<body ng-controller="myController">
     <nav class="navbar">
         <ul>
             <li><a href="#">Home</a></li>
@@ -33,15 +33,15 @@
     </div>
     <div>
         <div class="images">
-            <img class="profile" src="images/team01.jpg" alt="">
-            <img class="profile"  src="images/team02.jpg" alt="">
-            <img class="profile"  src="images/team03.jpg" alt="">
-            <img class="profile"  src="images/team04.jpg" alt="">
-            <img class="profile"  src="images/team05.jpg" alt="">
+            <img class="profile first" src="images/team01.jpg" alt="">
+            <img class="profile second" src="images/team02.jpg" alt="">
+            <img class="profile third" src="images/team03.jpg" alt="">
+            <img class="profile fourth" src="images/team04.jpg" alt="">
+            <img class="profile fifth" src="images/team05.jpg" alt="">
         </div>
     </div>
     <div>
-        
+
     </div>
     <div ng-repeat="card in cards2">
         <img src='images/{{card["img"]}}.jpg' alt="">
@@ -56,8 +56,6 @@
                 $scope.cards1 = response.data;
                 console.log($scope.cards1);
             });
-        });
-        app.controller("myController", function($scope, $http){
             $http.get("Cards2.json").then(function(response){
                 $scope.cards2 = response.data;
                 console.log($scope.cards2);

@@ -33,6 +33,42 @@ body {
     background-color: #555;
 }
 
+.images {
+    display: grid;
+    grid-template-columns: 80px 1fr 80px 1fr 100px 1fr 100px 1fr 80px 1fr 80px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
 .profile {
+    
     border-radius: 50%;
+    border: 2px whitesmoke  solid;
+    width: 100%;
+    grid-row: 1 / 2;
+}
+
+.first {
+    grid-column: 1 / 4;
+    z-index: 1;
+}
+
+.second {
+    grid-column: 3 / 6;
+}
+
+.third {
+    grid-column: 5 / 8;
+    z-index: 1;
+}
+
+.fourth {
+    grid-column: 7 / 10;
+}
+
+.fifth {
+    grid-column: 9 / 12;
+    z-index: 1;
+    
 }
