@@ -110,6 +110,39 @@ header{
     margin: auto;
     display: flex;
     text-align: left;
+<<<<<<< Updated upstream
+=======
+}
+
+#cardGallery1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardOne {
+    max-width: 40%;
+    margin: 2% 4%;
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.cardOne img {
+    max-width: 92%;
+    margin: 0 4%;
+}
+
+.cardOne p {
+    margin: 4%;
+    text-align: justify;
+}
+
+.cardOne button {
+    background-color: aqua;
+    margin: auto;
+>>>>>>> Stashed changes
 }
 
 .headerIMG{
