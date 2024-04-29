@@ -110,8 +110,6 @@ header{
     margin: auto;
     display: flex;
     text-align: left;
-<<<<<<< Updated upstream
-=======
 }
 
 #cardGallery1 {
@@ -142,7 +140,6 @@ header{
 .cardOne button {
     background-color: aqua;
     margin: auto;
->>>>>>> Stashed changes
 }
 
 .headerIMG{
