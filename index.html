@@ -11,21 +11,27 @@
     <header>
     <div class="container">
         <div class="headerSzoveg">
-            <h1>MARINE AWARENESS RETREATS.</h1>
-            <p>We are an organization focused on educating and raising awareness about the importance of our ocean’s ecosystems. We create life-altering experiences that literally change perceptions and perspectives. Join us for an incredible trip that will educate and forever change you.</p>    
-            <button id="headerGomb">Learn more about our tips  >></button>
+            <img class="headerIMG" src="./images/ecoSystems.png" alt="">
+            <div>
+                <h1>MARINE AWARENESS RETREATS.</h1>
+                <p>We are an organization focused on educating and raising awareness about the importance of our ocean’s ecosystems. We create life-altering experiences that literally change perceptions and perspectives. Join us for an incredible trip that will educate and forever change you.</p>    
+                <button id="headerGomb">Learn more about our tips  >></button>
+            </div>
         </div>
     </div>
  </header>
 <body ng-controller="myController">
     <nav class="navbar">
+        <img class="navIMG" src="./images/marLogo.svg" alt="Mar logo">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">Book an experience</a></li>
+            <button>
+                <li><a class="navbarSZOVEG" href="#">Book an experience</a></li>
+            </button>
         </ul>
     </nav>
     <div ng-repeat="card in cards1">
